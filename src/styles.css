@@ -9,12 +9,12 @@
 }
 
 :root{
-    --branca:#fff;
-    --cor-fundo:#fff;
-    --botao1:#fff;
-    --botao2:#fff;
-    --cor1:#fff;
-    --cor2:#fff;
+    --branca:#eebe80;
+    --cor-fundo:#bafda0;
+    --botao1:#f7972a;
+    --botao2:#87eb7e;
+    --cor1:#aef3a8;
+    --cor2:#f3ab3f;
 }
 
 body{
