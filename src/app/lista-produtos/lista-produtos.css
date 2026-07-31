@@ -6,17 +6,26 @@
     background-color: var(--cor1);
 }
 
+form{
+    text-align: center;
+    width: 550px;
+    height: 400px;
+    background-color: #ee82ee;
+    padding: 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+
 h2{
     text-align: center;
     padding: 20px 0px;
     letter-spacing: 5px;
 }
 
-#formulario{
-    background-color: var(--branca);
-    padding: 15px;
-    border-radius: 8px;
-}
+
+
 
 label{
     display: block;
@@ -51,6 +60,8 @@ button{
     font-size: 0.8em;
     color: var(--branca);
     cursor: pointer;
+    margin: 20px;
+
 }
 
 #btnAdd{
