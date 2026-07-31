@@ -12,14 +12,16 @@
 
         <div id="div-btns">
             <button type="submit" id="btnAdd" (click) = "addItem()">Adicionar</button>
-            <button type="button" id="btnLimpar">Limpar</button>
+            <button type="button" id="btnLimpar" (click) = "limparTudo" >Limpar</button>
         </div>
     </form>
 
     <div id="div-lista">
 
         @for(elem of listaItens; track elem.idProduto){
-            <div class="div-item"> {{elem.idProduto}} - {{elem.descricaoProduto}} - R$ {{elem.valorUnitario?.toFixed (2)?.replace('.','.')}}</div>
+            
+            <div class="div-item">
+                <input type="checkbox"> &nbsp; {{elem.idProduto}} - {{elem.descricaoProduto}} - R$ {{elem.valorUnitario?.toFixed (2)?.replace('.','.')}}</div>
         }@empty{
             <div class="div-item">Nenhum Item Adicionado!!!</div>
         }

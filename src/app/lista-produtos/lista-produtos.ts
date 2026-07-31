@@ -31,4 +31,7 @@ export class ListaProdutos {
     this.valor_unitario = 0.0
 
   }
+  limparTudo(){
+    this.listaItens = []
+  }
 }
