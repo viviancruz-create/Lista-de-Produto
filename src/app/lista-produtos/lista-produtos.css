@@ -42,6 +42,11 @@ input{
     border-radius: 5px;
 }
 
+input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+}
+
 #div-btns{
     margin: 20px 0px;
     width: 100%;
